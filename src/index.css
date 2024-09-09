@@ -1,0 +1,61 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+}
+
+.section{
+  display: flex;
+  margin: 20px auto;
+  width: 1024px;
+  height: 700px;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  background-color: whitesmoke;
+  width: 400px;
+  height: 150px;
+  margin-top: 100px;
+  border: none;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-container{
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.container > .selector > button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(53, 131, 226);
+  color: aliceblue;
+}
+
+.selector {
+  display: flex;
+}
+
+.popover {
+  margin-top: 20px;
+}
+
+h4 {
+  position: absolute;
+  bottom: 120px;
+  font-size: 40px;
+}
